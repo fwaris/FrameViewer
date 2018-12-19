@@ -1,4 +1,4 @@
-﻿namespace CaMediaPlayer.AssemblyInfo
+﻿namespace FrameViewer.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("CaMediaPlayer")>]
+[<assembly: AssemblyTitle("FrameViewer")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("CaMediaPlayer")>]
+[<assembly: AssemblyProduct("FrameViewer")>]
 [<assembly: AssemblyCopyright("Copyright ©  2018")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("e304fc81-d615-40a5-99ad-44e7d99ab619")>]
+[<assembly: Guid("a4278ca0-a804-4616-8266-a572860d3ba9")>]
 
 // Version information for an assembly consists of the following four values:
 //

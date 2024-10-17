@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Dialog.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Avalonia.Desktop" Version="11.0.4" />
+	  <PackageReference Include="Avalonia.FuncUI" Version="1.0.1" />
+	  <PackageReference Include="Avalonia.FuncUI.Elmish" Version="1.0.1" />
+	  <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove=".template.config\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FrameViewerCore\FrameViewerCore.fsproj" />
+  </ItemGroup>
+
+</Project>
